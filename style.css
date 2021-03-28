@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    background-image: url(/assets/img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container-text{
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.paragraph{
+    font-size: 25rem;
+    font-weight: 900;
+    color: #B1DDEA;
+}
